@@ -53,7 +53,6 @@ def player_numbers(team_name)
   team_info = team.values()[0]
   team_info[:players].each {|player, stats| numbers << stats[:number]}
   return numbers.sort
-  # binding.pry
 end
 
 def player_stats(name)
